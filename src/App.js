@@ -16,10 +16,7 @@ function App() {
         <>
           <Header {...props}/>
           <Routes/>
-          <Footer
-            content = "Kuikr es una página con fines didácticos en la que se muestran contenidos sobre series y películas, espero que lo estes disfrutando"
-            githubLink= "https://github.com/eduroyu"
-          />
+          <Footer/>
         </>
       )}/>
     </BrowserRouter>
