@@ -43,7 +43,6 @@ const MovieList = props => {
     return (
         <div className='movie-list'>
             <Slider
-                arrows={false}
                 swipeToSlide={true}
                 slidesToShow={6}
                 initialSlide={0}
